@@ -4,14 +4,20 @@ git clone https://github.com/jamieduk/Mirage-2025.git
 
 cd mirage
 
+python3.12 -m venv venv
+PYTHON_PATH=$(which python3.12)
+echo "alias python='$PYTHON_PATH'" >> venv/bin/activate
+source venv/bin/activate
+echo "Virtual Environment setup and ready!"
+echo ""
 
-venv
 pip install terminaltables matplotlib keyboard psutil scapy pyusb pyserial pycryptodome terminaltables 
 
 sudo chmod +x *.sh
 ./setup.sh
 
-sudo /home/jay/Documents/Scripts/BASH/Bluetooth-Scanning/mirage/venv/bin/python /home/jay/Documents/Scripts/BASH/Bluetooth-Scanning/mirage/mirage_launcher
+
+sudo /home/$USER/Documents/Scripts/BASH/Bluetooth-Scanning/mirage/venv/bin/python /home/jay/Documents/Scripts/BASH/Bluetooth-Scanning/mirage/mirage_launcher
 
 
 
