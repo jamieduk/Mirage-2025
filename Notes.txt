@@ -1,9 +1,15 @@
+Mirage 2025
+
+git clone https://github.com/jamieduk/Mirage-2025.git
+
+cd mirage
 
 
 venv
 pip install terminaltables matplotlib keyboard psutil scapy pyusb pyserial pycryptodome terminaltables 
 
-
+sudo chmod +x *.sh
+./setup.sh
 
 sudo /home/jay/Documents/Scripts/BASH/Bluetooth-Scanning/mirage/venv/bin/python /home/jay/Documents/Scripts/BASH/Bluetooth-Scanning/mirage/mirage_launcher
 
