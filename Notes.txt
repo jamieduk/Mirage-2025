@@ -1,0 +1,12 @@
+
+
+venv
+pip install terminaltables matplotlib keyboard psutil scapy pyusb pyserial pycryptodome terminaltables 
+
+
+
+sudo /home/jay/Documents/Scripts/BASH/Bluetooth-Scanning/mirage/venv/bin/python /home/jay/Documents/Scripts/BASH/Bluetooth-Scanning/mirage/mirage_launcher
+
+
+
+
